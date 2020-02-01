@@ -41,7 +41,9 @@ confidence=rules.as_matrix(columns=['confidence'])
 
 
 
-EFEKT:
+#EFEKT:
+
+#DANE WEJŚCIOWE:
 
 KOSZYK #0:['shrimp', 'almonds', 'avocado', 'vegetables mix', 'green grapes', 'whole weat flour', 'yams', 'cottage cheese', 'energy drink', 'tomato juice', 'low fat yogurt', 'green tea', 'honey', 'salad', 'mineral water', 'salmon', 'antioxydant juice', 'frozen smoothie', 'spinach', 'olive oil']
 KOSZYK #1:['burgers', 'meatballs', 'eggs']
@@ -63,6 +65,9 @@ KOSZYK #16:['shrimp', 'chocolate', 'chicken', 'honey', 'oil', 'cooking oil', 'lo
 KOSZYK #17:['turkey', 'eggs']
 KOSZYK #18:['turkey', 'fresh tuna', 'tomatoes', 'spaghetti', 'mineral water', 'black tea', 'salmon', 'eggs', 'chicken', 'extra dark chocolate']
 KOSZYK #19:['meatballs', 'milk', 'honey', 'french fries', 'protein bar']
+
+#WYPRODUKOWANE REGUŁY:
+
 Rule: chicken -> light cream
 Support: 0.004532728969470737
 Confidence: 0.29059829059829057
@@ -185,4 +190,24 @@ Lift: 3.0228043143297376
 =====================================
 
 INTERPRETACJA:
-Kupując spaghetti istnieje 28% Szans że kupimy wodę mineralną
+
+Kupując spaghetti (ostatnie) istnieje 28% Szans że kupimy wodę mineralną
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
